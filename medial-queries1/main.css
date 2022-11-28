@@ -1,3 +1,23 @@
 body {
   background: blanchedalmond;
 }
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  justify-content: flex-start;
+}                  
+div .a, .b, .c{
+  border: 2px solid black;
+}
+
+.a{
+  
+
+}
+                  
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}                  
