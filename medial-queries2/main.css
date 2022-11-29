@@ -1,3 +1,51 @@
 body {
   background: papayawhip;
+
+}
+.container {
+
+}
+
+.a {
+  height: 20px;
+  width: 100px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.b{
+  height: 20px;
+  width: 60px;
+  border: 2px solid black;
+}
+
+.c{
+  height: 20px;
+  width: 15px;
+  border: 2px solid black;
+}
+
+.d{
+  height: 20px;
+  width: 15px;
+  border: 2px solid black;
+}
+
+.e{
+  height: 20px;
+  width: 15px;
+  border: 2px solid black;
+}
+
+.f{
+  display: flex;
+  align-self: center;
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+}
+
+.c, .d, .e {
+  display: inline-flex;
 }
