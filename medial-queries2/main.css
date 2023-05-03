@@ -2,9 +2,11 @@ body {
   background: papayawhip;
 
 }
-.container {
-
-}
+ /*.c, .e, .f {
+  height: 60px;
+  width: 100px;
+  display: inline-flex;
+}*/
 
 .a {
   height: 20px;
@@ -20,32 +22,19 @@ body {
   border: 2px solid black;
 }
 
-.c{
+.c, .d, .e {
   height: 20px;
   width: 15px;
   border: 2px solid black;
-}
-
-.d{
-  height: 20px;
-  width: 15px;
-  border: 2px solid black;
-}
-
-.e{
-  height: 20px;
-  width: 15px;
-  border: 2px solid black;
+  display:inline-flex;
 }
 
 .f{
   display: flex;
-  align-self: center;
+  float: right;
+  margin-right: 1300px;
   height: 40px;
-  width: 40px;
+  width: 55px;
   border: 2px solid black;
 }
 
-.c, .d, .e {
-  display: inline-flex;
-}

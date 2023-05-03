@@ -26,20 +26,21 @@ div #a, #b, #c{
   justify-content: space-around;
   height: 20px;
 }
-#b {
+#b, #c {
+  display:inline-block;
   justify-content: center;
   flex-direction:row;
   align-items:center;
   height: 40px;
   width: 50px;
 }
-#c {
+/*#c {
   justify-content:center;
   align-items:center;
   flex-direction:row;
   height: 40px;
   width: 50px;
-}
+}*/
 .grid {
   display: flex;
   flex-grow: 1;
