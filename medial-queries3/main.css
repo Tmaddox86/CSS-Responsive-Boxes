@@ -23,9 +23,13 @@ body {
   height: 20px;
   width: 15px;
   border: 2px solid black;
+
 }
 .row2 {
+  height: 20px;
+  width: 45px;
   display: inline-flex;
+flex-direction: row;
 }
 
 .h{
