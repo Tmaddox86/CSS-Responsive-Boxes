@@ -10,54 +10,26 @@ body {
 }
 
 
-.b{
+.b, .c, .d {
   height: 20px;
   width: 15px;
   border: 2px solid black;
 }
+.row1 {
+  display: inline-flex;
+}
 
-
-.c{
+.e, .f, .g {
   height: 20px;
   width: 15px;
   border: 2px solid black;
 }
-
-
-.d{
-  height: 20px;
-  width: 15px;
-  border: 2px solid black;
+.row2 {
+  display: inline-flex;
 }
-
-
-.e{
-  height: 20px;
-  width: 15px;
-  border: 2px solid black;
-}
-
-
-.f{
-  height: 20px;
-  width: 15px;
-  border: 2px solid black;
-}
-
-
-.g{
-  height: 20px;
-  width: 15px;
-  border: 2px solid black;
-}
-
 
 .h{
   height: 40px;
   width: 15px;
   border: 2px solid black;
-}
-.b, .c, .d, .e, .f, .g {
-  display: flex;
-  flex-direction:row;
 }
